@@ -1,0 +1,366 @@
+[ 2017-02-23T09:18:58+08:00 ] 127.0.0.1 /index.php/Admin/AdsManager/adsList.html?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T09:19:01+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-02-23T09:19:01+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T09:19:10+08:00 ] 127.0.0.1 /Admin/Login/loginHandler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant AUTO_KEY - assumed 'AUTO_KEY' D:\phpStudy\WWW\cpshop\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( username='admin' )  [ RunTime:0.000000s ]
+SQL: UPDATE `tp_admin` SET `username`='admin',`password`='21232f297a57a5a743894a0e4a801fc3',`actiontime`=1487812749,`sessionid`='hskj4sv835nlrmss67hcoj8732' WHERE ( id= '1'  ) [ RunTime:0.000000s ]
+
+[ 2017-02-23T09:19:11+08:00 ] 127.0.0.1 /Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.004000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_order`
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( createtime between '1487779200' and '1487865599' and status=1 and orderstatus>1 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( createtime between '1487779200' and '1487865599' and status=1 and orderstatus>1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus>1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus>1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1 and orderstatus >2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1 and orderstatus >2 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus = 2 ) LIMIT 1   [ RunTime:0.001001s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus = 2 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hello D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\bbfe1a02f59437d03cf6344558745e95.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T09:19:30+08:00 ] 127.0.0.1 /Admin/AdsManager/adsCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T09:19:32+08:00 ] 127.0.0.1 /Admin/AdsManager/adsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_ads` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T09:19:39+08:00 ] 127.0.0.1 /Admin/AdsManager/addAds.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ads D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\a032ad7c82954cfa8eb5908f9bca4f03.php 第 234 行.
+NOTIC: [8] Undefined variable: ads D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\a032ad7c82954cfa8eb5908f9bca4f03.php 第 239 行.
+NOTIC: [8] Undefined variable: ads D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\a032ad7c82954cfa8eb5908f9bca4f03.php 第 250 行.
+NOTIC: [8] Undefined variable: ads D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\a032ad7c82954cfa8eb5908f9bca4f03.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T09:19:42+08:00 ] 127.0.0.1 /Admin/AdsManager/adsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.005001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_ads` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-23T09:20:28+08:00 ] 127.0.0.1 /index.php/Admin/AdsManager/adsList.html?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_ads` WHERE ( status = 1  and cid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1   and cid=1 ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T15:50:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.034002s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.026002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.016001s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.008000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 26 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 29 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T15:50:23+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 26 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 29 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-23T15:51:50+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 26 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 29 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

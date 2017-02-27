@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><li><a href='http://www.cpshop.com/index.php/Admin/AdsManager/adsList.html?cid=1'><img src='/Uploads/Ads/2016-11-23/58355545ac56e.png' alt="1231231" /></a></li><li><a href='http://www.cpshop.com/index.php/Admin/AdsManager/adsList.html?cid=1'><img src='/Uploads/Ads/2016-11-23/58353ca145d81.jpg' alt="1231231" /></a></li>

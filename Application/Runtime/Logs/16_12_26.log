@@ -1,0 +1,311 @@
+[ 2016-12-26T14:33:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.005001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.024001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.004001s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 26 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 29 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T14:33:29+08:00 ] 127.0.0.1 /Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\fe3d14c43e95c65443a23011abe5e870.php 第 28 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\fe3d14c43e95c65443a23011abe5e870.php 第 31 行.
+NOTIC: [8] Undefined variable: user D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\fe3d14c43e95c65443a23011abe5e870.php 第 32 行.
+NOTIC: [8] Undefined variable: shopCateOne D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\fe3d14c43e95c65443a23011abe5e870.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T14:33:34+08:00 ] 127.0.0.1 /Login/LoginHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_user` WHERE ( status=0 and email=1521249977@qq.com  )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com  )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_user` WHERE ( status=0 and email=1521249977@qq.com  ) 
+SQL: SELECT `id`,`email`,`username` FROM `tp_user` WHERE ( status=1 and email='1521249977@qq.com' and password= '96e79218965eb72c92a549dd5a330112'  )  [ RunTime:0.000000s ]
+
+[ 2016-12-26T14:33:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 64 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T16:25:52+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b214a5d8a0dfe4ce1bec92646d480224.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T16:25:55+08:00 ] 127.0.0.1 /Shop/goods?id=6&t=1482740752
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`picimg`,`name`,`pricenow` FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and id != 6 ) ORDER BY ctime desc LIMIT 0,8   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\914aa622bd800e15909a9e4d922fc804.php 第 65 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\914aa622bd800e15909a9e4d922fc804.php 第 65 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\914aa622bd800e15909a9e4d922fc804.php 第 224 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\914aa622bd800e15909a9e4d922fc804.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T16:26:12+08:00 ] 127.0.0.1 /Shop/addShopCart?gid=6&time=1482740755
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT `name`,`picimg`,`pricenow`,`sales`,`stocks`,`xiajia` FROM `tp_shop_goods` WHERE ( id=6 and status=1 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_shop_cart` (`gid`,`name`,`picimg`,`pricenow`,`attrid`,`attrprice`,`attrall`,`number`,`amount`,`uid`,`ctime`) VALUES (6,'213123','/Uploads/ShopGoods/2016-12-05/5844e1513947a.jpg',133,'0',0,'',8,1064,1,1482740772) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.000000s ]
+
+[ 2016-12-26T16:26:15+08:00 ] 127.0.0.1 /shop/listShopCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\601d3b978bed032cf2cf82f0cc407dc4.php 第 9 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\601d3b978bed032cf2cf82f0cc407dc4.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\601d3b978bed032cf2cf82f0cc407dc4.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-26T16:28:15+08:00 ] 127.0.0.1 /Shop/addMessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_set` WHERE ( id=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: shopCart D:\phpStudy\WWW\cpshop\Application\Home\Controller\BaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cart` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_shop_cart` WHERE ( uid=1 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\734a3b5d2853bbbe5abb8771dc8ed358.php 第 111 行.
+NOTIC: [8] Use of undefined constant cartList - assumed 'cartList' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\734a3b5d2853bbbe5abb8771dc8ed358.php 第 111 行.
+NOTIC: [2] Division by zero D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\734a3b5d2853bbbe5abb8771dc8ed358.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,2540 @@
+[ 2016-12-06T09:59:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.014001s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:59:02+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:59:04+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T09:59:04+08:00 ] 127.0.0.1 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:59:12+08:00 ] 127.0.0.1 /Admin/Login/loginHandler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant AUTO_KEY - assumed 'AUTO_KEY' D:\phpStudy\WWW\cpshop\Application\Admin\Controller\LoginController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_admin` WHERE ( username='admin' )  [ RunTime:0.001000s ]
+SQL: UPDATE `tp_admin` SET `username`='admin',`password`='21232f297a57a5a743894a0e4a801fc3',`actiontime`=1480989551,`sessionid`='tn6qct3me7rdt3djbfnn9s6ar7' WHERE ( id= '1'  ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T09:59:13+08:00 ] 127.0.0.1 /Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_order` [ RunTime:0.005001s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_order`
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( createtime between '1480953600' and '1481039999' and status=1 and orderstatus>1 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( createtime between '1480953600' and '1481039999' and status=1 and orderstatus>1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus>1 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus>1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1 and orderstatus >2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1 and orderstatus >2 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_order' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_order` WHERE ( status = 1  and orderstatus = 2 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hello D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\bbfe1a02f59437d03cf6344558745e95.php 第 213 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:08:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:09:07+08:00 ] 127.0.0.1 /Admin/ShopCard/cardList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_card` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_card` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 240 行.
+NOTIC: [8] Undefined variable: cateList D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 258 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:09:09+08:00 ] 127.0.0.1 /Admin/ShopCard/addCard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e5f817885965198974f0715fc48006e5.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:09:11+08:00 ] 127.0.0.1 /Admin/ShopCard/cardList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_card` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_card` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 240 行.
+NOTIC: [8] Undefined variable: cateList D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 258 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:09:13+08:00 ] 127.0.0.1 /Admin/Order/payment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Order
+
+[ 2016-12-06T10:09:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=1 and status=1 ) LIMIT 0,6   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.005001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=2 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=3 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `tp_ads_cate` WHERE ( tag='ceshi' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1 and cid=1 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\cpshop\Application\Common\Taglib\Mytag.class.php 第 51 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 107 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 112 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\d2e71fb15b354760a5129829a5b6e03f.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:09:21+08:00 ] 127.0.0.1 /index.php/Admin/AdsManager/adsList.html?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_ads_cate` WHERE ( status=1 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_ads` WHERE ( status = 1  and cid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_ads` WHERE ( status=1   and cid=1 ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-12-06T10:09:28+08:00 ] 127.0.0.1 /Admin/AdsManager/setPaixu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_ads` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_ads` SET `paixu`=2 WHERE ( id=2 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:09:32+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T10:09:32+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:09:35+08:00 ] 127.0.0.1 /Index/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+ERR: 非法操作:4
+
+[ 2016-12-06T10:10:09+08:00 ] 127.0.0.1 /Admin/ShopCard/addCard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e5f817885965198974f0715fc48006e5.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T10:11:21+08:00 ] 127.0.0.1 /Index/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+ERR: 非法操作:4
+
+[ 2016-12-06T10:11:21+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:11:23+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:11:23+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:11:29+08:00 ] 127.0.0.1 /Index/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+ERR: 非法操作:4
+
+[ 2016-12-06T10:12:43+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:12:46+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T10:12:46+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:13:01+08:00 ] 127.0.0.1 /Admin/ShopCard/addCard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e5f817885965198974f0715fc48006e5.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:13:03+08:00 ] 127.0.0.1 /Admin/ShopCard/cardList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_card` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_card` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 240 行.
+NOTIC: [8] Undefined variable: cateList D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 258 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:11+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:15+08:00 ] 127.0.0.1 /Admin/ShopTag/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_tag` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_tag` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:20+08:00 ] 127.0.0.1 /Admin/ShopTag/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_tag` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_shop_tag` SET `name`='1232i7ii7' WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:21+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:25+08:00 ] 127.0.0.1 /Admin/ShopTag/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_tag` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_tag` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:26+08:00 ] 127.0.0.1 /Admin/ShopGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopGoodsController.class.php on line 7 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:33+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:38+08:00 ] 127.0.0.1 /Admin/ShopAttr/editAttr/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( id=16  and status = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-12-06T10:14:41+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='10-15�\�' WHERE ( id=17 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:42+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.003001s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='15-20�\�' WHERE ( id=18 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:43+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='20-25�\�' WHERE ( id=19 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:44+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='10-15�\�' WHERE ( id=17 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:45+08:00 ] 127.0.0.1 /Admin/ShopGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopGoodsController.class.php on line 7 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:49+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:55+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=8&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.006001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=8 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:56+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=6&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=6 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:14:57+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=7&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=7 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:14:58+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=6&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=6 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:06+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=8&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=8 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:08+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=6&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.007001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=6 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:09+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:14+08:00 ] 127.0.0.1 /Admin/ShopAttr/addAttrHandler.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: INSERT INTO `tp_shop_attr` (`name`,`color`,`ctime`) VALUES ('1231','#5BC0DE',1480990514) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:15+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=21  and status = 1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopAttrController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:17+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='1231' WHERE ( id=21 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:21+08:00 ] 127.0.0.1 /Admin/ShopAttr/editAttr/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( id=16  and status = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:24+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='10-15�\�' WHERE ( id=17 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:31+08:00 ] 127.0.0.1 /Admin/ShopAttr/editAttrHandler/pid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.006001s ]
+SQL: INSERT INTO `tp_shop_attr` (`pid`,`name`,`color`,`ctime`) VALUES (16,'25-30','#5BC0DE',1480990531) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:32+08:00 ] 127.0.0.1 /Admin/ShopAttr/editAttrHandler/pid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005001s ]
+SQL: INSERT INTO `tp_shop_attr` (`pid`,`name`,`color`,`ctime`) VALUES (16,'25-30','#5BC0DE',1480990532) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:33+08:00 ] 127.0.0.1 /Admin/ShopAttr/editAttr/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( id=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:37+08:00 ] 127.0.0.1 /Admin/ShopAttr/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_shop_attr` SET `name`='25-30' WHERE ( id=23 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:41+08:00 ] 127.0.0.1 /Admin/ShopAttr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( status=1 and pid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=16  and status = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=11  and status = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( pid=21  and status = 1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopAttrController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:45+08:00 ] 127.0.0.1 /Admin/ShopGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopGoodsController.class.php on line 7 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:50+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:15:57+08:00 ] 127.0.0.1 /Admin/ShopGoods/addGoodsAttrHandler/gid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.003000s ]
+SQL: SELECT `attrid` FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.002000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( id=17 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_goods_attr` (`gid`,`attrpid`,`attrid`,`attrname`,`price`) VALUES (6,16,17,'10-15�\�',0) [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( id=18 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_goods_attr` (`gid`,`attrpid`,`attrid`,`attrname`,`price`) VALUES (6,16,18,'15-20�\�',0) [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( id=19 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_goods_attr` (`gid`,`attrpid`,`attrid`,`attrname`,`price`) VALUES (6,16,19,'20-25�\�',0) [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( id=22 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_goods_attr` (`gid`,`attrpid`,`attrid`,`attrname`,`price`) VALUES (6,16,22,'25-30',0) [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `tp_shop_attr` WHERE ( id=23 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `tp_goods_attr` (`gid`,`attrpid`,`attrid`,`attrname`,`price`) VALUES (6,16,23,'25-30',0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.003001s ]
+SQL: SELECT `attrid` FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: UPDATE `tp_shop_goods` SET `attrid`='11,16' WHERE ( id=6 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:15:58+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:16:01+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=13&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=13 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:16:05+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=8&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.006001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=8 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:06+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=7&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=7 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:08+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=11&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=11 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:09+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=13&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=13 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:10+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=14&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=14 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:17+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=12&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=12 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:16:25+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=12&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=12 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:18+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=11&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.003000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=11 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:23+08:00 ] 127.0.0.1 /Admin/ShopGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005001s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopGoodsController.class.php on line 7 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_shop_goods` WHERE ( status = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( status=1 ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3f86016c70fb42fcd942b3b91f408205.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:25+08:00 ] 127.0.0.1 /Admin/ShopGoods/editGoods/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopGoodsController.class.php on line 102 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tp_shop_tag` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_shop_tag` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=4 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\88fe76fbd33bb4709a6dc7a3b653f725.php 第 234 行.
+NOTIC: [8] Undefined variable: catelist D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\88fe76fbd33bb4709a6dc7a3b653f725.php 第 262 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:33+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:36+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=8&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=8 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:17:37+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=6&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=6 ) [ RunTime:0.001001s ]
+
+[ 2016-12-06T10:17:42+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=10&price=-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=-10 WHERE ( id=10 ) [ RunTime:0.033002s ]
+
+[ 2016-12-06T10:17:44+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=11&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=11 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:17:46+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=12&price=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.006001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=10 WHERE ( id=12 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:17:57+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=10&price=-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=-10 WHERE ( id=10 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:17:59+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=11&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005001s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=11 ) [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:18:00+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=10&price=-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=-10 WHERE ( id=10 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:18:14+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=11&price=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=0 WHERE ( id=11 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:18:36+08:00 ] 127.0.0.1 /Admin/ShopGoods/saveAttrPrice.html?id=10&price=-10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: UPDATE `tp_goods_attr` SET `price`=-10 WHERE ( id=10 ) [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:19:01+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.004000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:19:03+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:19:14+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T10:19:41+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:20:12+08:00 ] 127.0.0.1 /Admin/ShopGoods/goodsAttr/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=16 and status=1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=11 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_attr` WHERE ( pid=21 and status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_goods_attr` WHERE ( gid=6 and status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\3625a99bb8a0e444572184109402ec0e.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:20:19+08:00 ] 127.0.0.1 /Admin/ShopCard/cardList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_card` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_shop_card` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 240 行.
+NOTIC: [8] Undefined variable: cateList D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 258 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 260 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\62eab1464324f28feb0bf9919092c79c.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:20:21+08:00 ] 127.0.0.1 /Admin/ShopCard/addCard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e5f817885965198974f0715fc48006e5.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:20:25+08:00 ] 127.0.0.1 /Admin/ShopCate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\934843ccf56a9ee00f73ef9607299af6.php 第 252 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\934843ccf56a9ee00f73ef9607299af6.php 第 252 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\934843ccf56a9ee00f73ef9607299af6.php 第 252 行.
+NOTIC: [8] Undefined index:  D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\934843ccf56a9ee00f73ef9607299af6.php 第 252 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\934843ccf56a9ee00f73ef9607299af6.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T10:20:34+08:00 ] 127.0.0.1 /Admin/ShopCate/addCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.008000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\ShopCateModel::getCate(), called in D:\phpStudy\WWW\cpshop\Application\Admin\Controller\ShopCateController.class.php on line 14 and defined D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Admin\Model\ShopCateModel.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e1805fece43bb0ef5ab0b60da95f72db.php 第 231 行.
+NOTIC: [8] Undefined variable: wxConfig D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e1805fece43bb0ef5ab0b60da95f72db.php 第 234 行.
+NOTIC: [8] Undefined variable: wxConfig D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\e1805fece43bb0ef5ab0b60da95f72db.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:20:50+08:00 ] 127.0.0.1 /Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.005001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_wx_config` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_wx_config`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\f176ac40f8e70b7b90006da7a709ea3f.php 第 232 行.
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\f176ac40f8e70b7b90006da7a709ea3f.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:20:52+08:00 ] 127.0.0.1 /Admin/Set/shopSet.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T10:20:56+08:00 ] 127.0.0.1 /Admin/Role/listAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`id`,`remark` FROM `tp_role`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:20:59+08:00 ] 127.0.0.1 /Admin/Admin/listAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003001s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username`,`id`,`status` FROM `tp_admin`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_role_user` [ RunTime:0.004000s ]
+SQL: SELECT `role_id` FROM `tp_role_user` WHERE ( `user_id` = '1' )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.003000s ]
+SQL: SELECT `remark` FROM `tp_role` WHERE ( `id` = 1 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `role_id` FROM `tp_role_user` WHERE ( `user_id` = '2' )  [ RunTime:0.000000s ]
+SQL: SELECT `remark` FROM `tp_role` WHERE ( `id` = 2 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:00+08:00 ] 127.0.0.1 /Admin/Ajax/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.006000s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 57 行.
+
+[ 2016-12-06T10:21:00+08:00 ] 127.0.0.1 /Admin/Ajax/userName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:11+08:00 ] 127.0.0.1 /Admin/Node/listAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.007000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_node` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `tp_node`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+NOTIC: [8] Undefined variable: a D:\phpStudy\WWW\cpshop\Application\Admin\Common\function.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: child D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\c1edc2a69b81d198c789fb90e5c94222.php 第 241 行.
+NOTIC: [8] Undefined index: child D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\c1edc2a69b81d198c789fb90e5c94222.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:12+08:00 ] 127.0.0.1 /Admin/Ajax/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.007000s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 57 行.
+
+[ 2016-12-06T10:21:12+08:00 ] 127.0.0.1 /Admin/Ajax/userName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T10:21:13+08:00 ] 127.0.0.1 /Admin/Admin/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+SQL: SELECT `sessionid` FROM `tp_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:13+08:00 ] 127.0.0.1 /Admin/Ajax/userName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:14+08:00 ] 127.0.0.1 /Admin/Ajax/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.005001s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'cpshop.tp_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_message` WHERE ( `status` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: items D:\phpStudy\WWW\cpshop\Application\Admin\Controller\AjaxController.class.php 第 57 行.
+
+[ 2016-12-06T10:21:25+08:00 ] 127.0.0.1 /Admin/Article/artList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.003000s ]
+SQL: SELECT ar.id,ar.title,ar.profile,ar.ctime,ac.name FROM tp_article as ar,tp_article_cate as ac WHERE ( ar.status=1 and ar.cid=ac.id ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:31+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:21:38+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:05+08:00 ] 127.0.0.1 /Admin/Article/artList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005001s ]
+SQL: SELECT ar.id,ar.title,ar.profile,ar.ctime,ac.name FROM tp_article as ar,tp_article_cate as ac WHERE ( ar.status=1 and ar.cid=ac.id ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:07+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:19+08:00 ] 127.0.0.1 /Admin/Article/artList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005000s ]
+SQL: SELECT ar.id,ar.title,ar.profile,ar.ctime,ac.name FROM tp_article as ar,tp_article_cate as ac WHERE ( ar.status=1 and ar.cid=ac.id ) LIMIT 0,20   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:22+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:40+08:00 ] 127.0.0.1 /Admin/Article/artList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006001s ]
+SQL: SELECT ar.id,ar.title,ar.profile,ar.ctime,ac.name FROM tp_article as ar,tp_article_cate as ac WHERE ( ar.status=1 and ar.cid=ac.id ) LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T10:22:42+08:00 ] 127.0.0.1 /Admin/Article/artAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\f498b3a43172eae5dfe51f99575a12ae.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:22:45+08:00 ] 127.0.0.1 /Admin/Article/artList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.005000s ]
+SQL: SELECT ar.id,ar.title,ar.profile,ar.ctime,ac.name FROM tp_article as ar,tp_article_cate as ac WHERE ( ar.status=1 and ar.cid=ac.id ) LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: attr D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 240 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\9e1702c32b59c61a8c04b6ebf8d25aca.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:24:29+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:25:03+08:00 ] 127.0.0.1 /Index/shopCate?cid=5&ce457bbd4782a4b16997fe84455ef4c7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( id=5 and status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=5 and status=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_shop_goods` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tp_shop_goods` WHERE ( cid=5 and status=1 and xiajia=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 144 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Home\b3e3b821137d682eadf72bc362dfb84e.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T10:25:03+08:00 ] 127.0.0.1 /Public/home/fonts/98084ba57c3e41b18ed980858f05b033.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-06T10:25:08+08:00 ] 127.0.0.1 /Index/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_shop_cate` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_shop_cate` WHERE ( pid=0 and status=1 )  [ RunTime:0.000000s ]
+ERR: 非法操作:4
+
+[ 2016-12-06T11:36:20+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T12:13:14+08:00 ] 127.0.0.1 /Admin/Article/artCateList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_article_cate` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_article_cate` WHERE ( status=1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\cpshop\Application\Runtime\Cache\Admin\5f131e07b5db5c5de2e5090600f7bd56.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
